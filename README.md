@@ -21,6 +21,7 @@ The list is maintained by the team behind [S.C.A.L.A. Score](https://score.get-s
   - [Europe](#europe) · [North America](#north-america) · [Asia Pacific](#asia-pacific) · [Latin America](#latin-america) · [Africa](#africa)
 - [Open bulk datasets with a verified licence](#open-bulk-datasets-with-a-verified-licence)
 - [Global and cross-border sources](#global-and-cross-border-sources)
+- [Community datasets and tools on GitHub](#community-datasets-and-tools-on-github)
 - [Free APIs](#free-apis)
 - [About S.C.A.L.A. Score](#about-scala-score)
 - [Quick start: Score API](#quick-start-score-api)
@@ -120,6 +121,34 @@ Other well-known bulk datasets (licence not re-checked by us, read the publisher
 | [OpenSanctions](https://www.opensanctions.org/) | Sanctioned and politically exposed entities | Yes (non-commercial) |
 | [S.C.A.L.A. Score](https://score.get-scala.com) | Search across registry and open data from many countries ([details](#about-scala-score)) | Yes (web search) |
 
+## Community datasets and tools on GitHub
+
+Open datasets and scrapers published as GitHub repositories. These are community projects, not official registry sources: check each repository's licence and terms before reusing the data, and prefer the official registry (listed above) for anything authoritative.
+
+| Repository | What it contains | Licence |
+|------------|------------------|---------|
+| [wainshine/Company-Names-Corpus](https://github.com/wainshine/Company-Names-Corpus) | Corpus of Chinese company and organisation names (abbreviations, brands, full legal names) for tokenisation and entity recognition | Apache-2.0 |
+| [sec-edgar/sec-edgar](https://github.com/sec-edgar/sec-edgar) | Python client to bulk-download filings of all companies from the SEC EDGAR database | Apache-2.0 |
+| [Timeverse/My-TW-Coverage](https://github.com/Timeverse/My-TW-Coverage) | Equity research coverage of 1,735 Taiwan-listed companies (TWSE + OTC): business overviews, supply chains, financials | MIT |
+| [EQTPartners/CompanyKG](https://github.com/EQTPartners/CompanyKG) | Large-scale company relation graph for the investment industry | MIT |
+| [datenanfragen/data](https://github.com/datenanfragen/data) | Directory of contact information and privacy-related data on companies, behind Datenanfragen.de | CC0-1.0 |
+| [nordicsemi/bluetooth-numbers-database](https://github.com/nordicsemi/bluetooth-numbers-database) | Assigned Bluetooth Company IDs, service UUIDs and other specification numbers | See repository |
+| [GeminiLn/EarningsCall_Dataset](https://github.com/GeminiLn/EarningsCall_Dataset) | Earnings conference call dataset of S&P 500 companies | Not stated |
+| [pugarte7/spanish-top-tech-companies](https://github.com/pugarte7/spanish-top-tech-companies) | Tech companies in Spain with €60k+ median software engineer salaries | MIT |
+| [hamza121star/tech-companies-in-pakistan](https://github.com/hamza121star/tech-companies-in-pakistan) | Technology companies in Pakistan hiring developers, designers, data scientists and hardware engineers | MIT |
+| [gronlund/cvrdata](https://github.com/gronlund/cvrdata) | Extractor for data from the Danish CVR registry (Danish Business Authority) | MIT |
+| [leadita/tech-stack-datasets](https://github.com/leadita/tech-stack-datasets) | Open datasets of companies and websites grouped by the technologies they use (CSV and JSON) | Not stated |
+| [RunaCapital/ROSS-Index](https://github.com/RunaCapital/ROSS-Index) | Quarterly top-20 trending open-source startups, ranked by GitHub star growth | See repository |
+| [spikeortom/HOPE](https://github.com/spikeortom/HOPE) | Companies' overseas expansion: partnerships, factories, M&A, joint ventures and supply chains | CC0-1.0 |
+| [mratanusarkar/Dataset-Indian-Companies](https://github.com/mratanusarkar/Dataset-Indian-Companies) | Scraped list of companies in India (AmbitionBox) | Not stated |
+| [aleksandr-smechov/fortune500](https://github.com/aleksandr-smechov/fortune500) | Privacy policies of 2019 Fortune 500 companies | MIT |
+| [openownership/data-standard](https://github.com/openownership/data-standard) | Beneficial Ownership Data Standard (BODS), an open standard for modelling and publishing ownership data | See repository |
+| [OpenInstitute/OpenDuka](https://github.com/OpenInstitute/OpenDuka) | Database of Kenyan entities (people, companies and their relationships) | Not stated |
+| [diaodiaozhuye/awesome-ai-startups](https://github.com/diaodiaozhuye/awesome-ai-startups) | Git-native data repository tracking AI startups and companies worldwide | MIT |
+| [NordPicks/nordic-market-data](https://github.com/NordPicks/nordic-market-data) | Clean reference data for the Nordic stock market (Oslo, Stockholm, Copenhagen, Helsinki); entity data from GLEIF (CC0) | See repository |
+| [ProfoundNetworks/company_designator](https://github.com/ProfoundNetworks/company_designator) | Dataset of corporate entity designators used in company names (Ltd., GmbH, S.A.S., etc.) | See repository |
+| [DFKI-NLP/product-corpus](https://github.com/DFKI-NLP/product-corpus) | DFKI Product Corpus: documents annotated for product and company named entities | CC BY 4.0 |
+
 ## Free APIs
 
 | Provider | Coverage | Pricing | Docs |
@@ -177,6 +206,7 @@ Broken link or wrong licence? [Open an issue](https://github.com/Alessandro114/w
 
 ## Changelog
 
+- **2026-10** — Added community GitHub datasets section (21 repositories, deduplicated against existing entries).
 - **2026-10** — Rewrite for accuracy: removed record counts that could not be sourced, removed commercial resellers and comparison claims, removed links that no longer resolve (sirene.fr, dubaided.gov.ae, gsxt.gov.cn, NASS page), added verified open-data licences per country, Baltic and Colombian sources, API quick start, examples, contribution rules.
 - **2026-08** — Added CC BY 4.0 licence text.
 - **2026-10** — Withdrew the 100K sample file (licence review; see `DATASET.md`).
